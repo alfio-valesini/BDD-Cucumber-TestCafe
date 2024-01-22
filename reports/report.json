@@ -1,0 +1,673 @@
+[
+  {
+    "description": "    As a visitor I can create a new account by the registration feature",
+    "keyword": "Feature",
+    "name": "Registration Feature",
+    "line": 1,
+    "id": "registration-feature",
+    "tags": [],
+    "uri": "features/registration.feature",
+    "elements": [
+      {
+        "id": "registration-feature;new-user-registration-e2e-scenario",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "New User Registration E2E Scenario",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16031000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the registration page",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I select the gender",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter First Name \"moataz\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I enter Last Name \"nabil\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select Date of Birth \"5\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I select Month of Birth \"November\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I select Year of Birth \"1983\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 322000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I enter Email \"moataznabil\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I enter Password \"123456\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I enter Confirm Password \"123456\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click register button",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "successful message is displayed",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration-feature;new-user-registration-e2e-scenario",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "New User Registration E2E Scenario",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the registration page",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I select the gender",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter First Name \"james\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I enter Last Name \"bond\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select Date of Birth \"6\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 343000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I select Month of Birth \"July\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I select Year of Birth \"1970\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I enter Email \"jamesbond\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I enter Password \"789443\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 291000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I enter Confirm Password \"789443\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click register button",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "successful message is displayed",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration-feature;check-the-new-user-account",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Check the new user account",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 25
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12765000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I open the login page",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I enter Email \"moataznabil\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I enter Password \"123456\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I click log in button",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I click my account page",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3776000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the personal details is displayed",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration-feature;check-the-new-user-account",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Check the new user account",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 25
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13041000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I open the login page",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5514000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I enter Email \"jamesbond\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I enter Password \"789443\"",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I click log in button",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I click my account page",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the personal details is displayed",
+            "match": {
+              "location": "features/step_denfinitions/stepdefs.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
